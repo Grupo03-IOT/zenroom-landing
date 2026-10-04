@@ -6,7 +6,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 /* Official SenseWork startup identity supplied by the team. */
-.startup-brand{display:block;width:228px;max-width:100%;background:#fff;border-radius:8px;overflow:hidden;flex-shrink:0}.startup-brand img{display:block;width:100%;height:auto}.header{background:#fff}.footer .startup-brand{width:228px}
+.startup-brand{display:block;width:228px;max-width:100%;background:transparent;border-radius:0;flex-shrink:0;line-height:0}.startup-brand img{display:block;width:100%;height:auto;mix-blend-mode:multiply}.header{background:var(--cream);padding-top:14px;padding-bottom:14px}.footer .startup-brand{width:228px}
 @media(max-width:1100px){.header .startup-brand{width:200px}}
 @media(max-width:800px){.header{gap:12px}.header .startup-brand{width:190px}}
 @media(max-width:380px){.header .startup-brand{width:156px}}
