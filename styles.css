@@ -11,3 +11,35 @@
 @media(max-width:800px){.header{gap:12px}.header .startup-brand{width:190px}}
 @media(max-width:380px){.header .startup-brand{width:156px}}
 
+/* SenseWork palette aligned with the web application. */
+:root{--navy:#102d3f;--blue:#2d86bf;--blue-hover:#226b99;--yellow:#f5ab20;--green:var(--navy);--ink:#102d3f;--muted:#526b80;--cream:#f5f7fa;--line:#d5e0e9;--lime:#dceef9;--surface:#eaf2f8}
+.button{background:var(--blue);border-color:var(--blue);color:#fff}
+.button:hover{background:var(--blue-hover);border-color:var(--blue-hover)}
+.hero h1 em,.feature-icon,.header nav a:hover,.text-link:hover{color:#247bb1}
+.eyebrow{color:var(--navy)}.dot{background:var(--yellow)}
+.hero-visual{background:#e3edf5;box-shadow:0 18px 60px #102d3f0d}
+.demo-tag{border-color:#b8ccdc;color:#36556b;background:#ffffff80}
+.workspace-map{background:#f4f7fa;box-shadow:14px 18px 0 #c7d8e5}
+.map-grid{background-image:linear-gradient(#a9c2d535 1px,transparent 1px),linear-gradient(90deg,#a9c2d535 1px,transparent 1px)}
+.room-a{background:#d5eadd}.room-b{background:#fff0cf}.room-c{background:#cce3f2}
+.desk{background:#fff;box-shadow:2px 4px 0 #8fadb9}.desk i{background:#537d95;border-color:#e5eff5}
+.round-table{border-color:#fff9e9;background:#edc36d;box-shadow:2px 4px 0 #c9a957}
+.long-table{background:repeating-linear-gradient(90deg,#fff 0,#fff 37px,#99b8ce 38px,#99b8ce 40px);box-shadow:2px 4px 0 #99b8ce}
+.plant{color:#3c725d}.map-pin{background:var(--navy);box-shadow:0 8px 20px #102d3f33}.map-pin span{color:#ffe0a0}
+.floating-reading{background:#fff;border-color:#dbe5ed;box-shadow:0 8px 30px #102d3f10}
+.reading-icon{background:#e6f1f9;color:#236d9c}.status-dot{background:#27854b}
+.visual-bottom,.visual-bottom div+div{border-color:#c5d6e3}.visual-bottom strong.good{color:#28673b}
+.value-strip>span{color:#3e6c8a}.feature-grid article{border-color:#b8cbd9}
+.spaces-wrap{background:#eaf2f8}.tabs{border-color:#b6cddd}.tabs button[aria-selected=true]{border-color:var(--blue);color:#226b99}
+.check-list li:before{color:#247bb1}
+.room-demo{background:#fff;border-color:#d5e0e9;box-shadow:0 12px 35px #102d3f08}.room-result{border-color:#e0e8ef}
+input,select{border-color:#bfcedb}.steps li>span{background:#e0edf7;color:#225b7e}
+.privacy-section{background:var(--navy);color:#fff}.privacy-art{border-color:#5b879f;color:#f5ab20;box-shadow:0 0 0 22px #ffffff06,0 0 0 45px #ffffff04}
+.privacy-section .eyebrow{color:#9bd3f4}.privacy-section p:not(.eyebrow){color:#cfdee8}.light-link{color:#a4d8f7}
+.plan-card{background:#fff;border-color:#c1d4e2;box-shadow:0 10px 32px #102d3f06}
+.faq-filters button{border-color:#c2d4e2}.faq-filters button[aria-pressed=true]{background:var(--navy);border-color:var(--navy)}
+#faq-results details{border-color:#d5e0e9}
+.contact-wrap{background:linear-gradient(120deg,#e7f2f7,#eaf0f9)}.contact-disclosure{border-color:var(--yellow)}.consent input{accent-color:var(--blue)}
+dialog{border-color:#bfcedb}dialog::backdrop{background:#102d3faa}
+.status.optimal{background:#e3f4e8;color:#246838}.status.moderate{background:#fff1d5;color:#78520b}.status.attention{background:#fce5e5;color:#a03232}
+
