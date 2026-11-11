@@ -43,3 +43,31 @@ input,select{border-color:#bfcedb}.steps li>span{background:#e0edf7;color:#225b7
 dialog{border-color:#bfcedb}dialog::backdrop{background:#102d3faa}
 .status.optimal{background:#e3f4e8;color:#246838}.status.moderate{background:#fff1d5;color:#78520b}.status.attention{background:#fce5e5;color:#a03232}
 
+
+.product-video {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr);
+  align-items: center;
+  gap: clamp(24px, 5vw, 64px);
+  border-top: 1px solid var(--line);
+}
+
+.product-video-copy p {
+  margin: 16px 0;
+  max-width: 36ch;
+}
+
+.product-player {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--navy);
+}
+
+@media (max-width: 800px) {
+  .product-video {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
