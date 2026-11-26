@@ -71,3 +71,29 @@ dialog{border-color:#bfcedb}dialog::backdrop{background:#102d3faa}
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* Sprint 3: web app login, Android app download and real app screenshots. */
+.header-login{font-size:13px;font-weight:600;padding:10px 4px;white-space:nowrap}.header-login:hover{color:#247bb1;text-decoration:underline;text-underline-offset:5px}
+.header-actions .button.small{white-space:nowrap}.nav-login{display:none}
+.actions{flex-wrap:wrap}
+.button.secondary{background:transparent;color:var(--navy);border-color:#9fb8cb}.button.secondary:hover{background:#e3edf5;border-color:var(--blue)}
+.android-note{font-size:11px;margin-top:12px}
+.inline-link{color:#226b99;text-decoration:underline;text-underline-offset:3px}
+.feature-shots{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;margin-top:56px}
+.feature-shots figure,.phone-shots figure{margin:0;min-width:0}
+.feature-shots img,.phone-shots img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.feature-shots img{border-radius:14px;box-shadow:0 18px 50px #102d3f14}
+.feature-shots figcaption,.phone-shots figcaption{font-size:12px;color:var(--muted);margin-top:12px}
+.mobile-app{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+.mobile-app-copy>p:not(.eyebrow):not(.android-note){font-size:14px;margin-top:22px;max-width:440px}
+.mobile-app-copy .android-note{max-width:440px}
+.phone-shots{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start}
+.phone-shots img{border-radius:22px;border:6px solid var(--navy);box-shadow:0 16px 40px #102d3f1f}
+.phone-shots figure:nth-child(2){margin-top:36px}
+.phone-shots figcaption{text-align:center}
+@media(max-width:1100px){.header-actions{gap:12px}.header nav{gap:14px;font-size:12px}.mobile-app{gap:38px}}
+@media(max-width:800px){.header-actions .button.small{display:inline-flex;padding:8px 12px;min-height:44px}.mobile-app{grid-template-columns:1fr}.mobile-app-copy{max-width:550px}.phone-shots{max-width:560px;width:100%;margin:auto}.feature-shots{grid-template-columns:1fr;gap:24px;margin-top:40px}}
+@media(max-width:560px){.header-login{display:none}.nav-login{display:block}.phone-shots{gap:10px}.phone-shots img{border-width:4px;border-radius:14px}.phone-shots figure:nth-child(2){margin-top:20px}.phone-shots figcaption{font-size:11px}}
+.header nav a{white-space:nowrap}
+@media(max-width:1000px){.header{position:relative}.menu{display:block}.header nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:10;background:var(--cream);border-bottom:1px solid #bbc8b1;padding:15px 25px;box-shadow:0 15px 20px #2348330a}.header nav.open{display:flex;flex-direction:column;gap:0}.header nav a{min-height:46px}}
+@media(max-width:420px){.header{padding-inline:14px;gap:8px}.header-actions{gap:2px}.header-actions .button.small{font-size:11px;padding:6px 10px}.header .startup-brand{width:118px}.language{min-width:40px}.menu{min-width:40px}}
